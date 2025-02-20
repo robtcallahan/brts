@@ -1,4 +1,5 @@
-window.toggleDiv = function() {
+console.log("loading");
+function toggleDiv() {
     let content = document.getElementById('service_details');
     let arrow = document.getElementById('arrow');
     if (content.style.display === 'none' || content.style.display === '') {
@@ -9,3 +10,4 @@ window.toggleDiv = function() {
         arrow.textContent = '▶';
     }
 }
+console.log("loaded");
