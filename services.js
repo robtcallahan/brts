@@ -1,6 +1,6 @@
 console.log("loading");
 
-function toggleDiv() {
+window.toggleDiv = function() {
     let content = document.getElementById('service_details');
     let arrow = document.getElementById('arrow');
     if (content.style.display === 'none' || content.style.display === '') {
